@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.info_list:hover {
+  @apply text-accent transition-all duration-700;
+}
